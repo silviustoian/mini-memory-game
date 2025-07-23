@@ -1,34 +1,54 @@
-# 🧠 Memory Game – React + Tailwind
+# 🧠 Memory Game
 
-A simple memory matching game built with **React**, **Vite**, and **Tailwind CSS**.
-
-You start with 6 images that are duplicated and shuffled into 12 cards. Click to flip, match pairs, and win!
+A simple React app that challenges your memory skills by matching image pairs. Built with Vite, Tailwind CSS, and React, and deployed on Vercel.
 
 ---
 
-## 🧪 Tech Stack
-
-- ⚛️ React
-- ⚡️ Vite
-- 🎨 Tailwind CSS
+🔗 **Live Demo:**  
+https://mini-memory-game-theta.vercel.app/
 
 ---
 
-## 🛠️ Getting Started
+## ✨ Features
 
-### 1. Clone the project
+- 🔁 Start with 6 unique images, shuffled into 12 cards
+- 🎴 Flip cards to reveal images and match pairs
+- 🧠 Matched cards stay visible, unmatched ones flip back
+- ⚡ Fast gameplay with simple logic
+- 🎨 Clean and responsive UI styled with Tailwind CSS
+
+---
+
+## 🛠️ Built With
+
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **Deployed on Vercel**
+
+---
+
+## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/memory-game.git
-cd memory-game
-2. Install dependencies
-bash
-Copiază
-Editează
+git clone https://github.com/yourusername/mini-memory-game.git
+cd mini-memory-game
 npm install
-3. Run locally
-bash
-Copiază
-Editează
 npm run dev
-The app will run on http://localhost:5173.
+Then open http://localhost:5173 in your browser.
+
+🚀 Deployment
+This app is deployed with Vercel. To deploy your own version:
+
+Push the project to GitHub
+
+Go to vercel.com
+
+Import your repo → Vercel auto-detects Vite + React
+
+Click Deploy
+
+That’s it — your app is live in seconds.
+
+🙌 Credits
+This project was built as a practice exercise to explore component logic, state management, and Tailwind CSS styling.
